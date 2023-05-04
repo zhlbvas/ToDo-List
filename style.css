@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-color: burlywood;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+}
+form { 
+    display: flex;
+    margin-bottom: 10px;
+}
+input[type="text"]{
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    border-color: rgba(60, 207, 12, 0.647);
+    color: rgb(47, 13, 187);
+    cursor: pointer;
+}
+button:hover {
+    background-color: aquamarine;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.checkbox {
+    margin-right: 10px;
+}
+.delete { 
+    border-color: rgb(168, 11, 11);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.delete:hover {
+    background-color: red;
+}
